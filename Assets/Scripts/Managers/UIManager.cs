@@ -35,8 +35,8 @@ public class UIManager : MonoBehaviour
         dayText.text = $"Day : {state.CurrentDay}";
         foodText.text = $"Food : {state.Food:F0}";
         waterText.text = $"Water : {state.Water:F0}";
-        foodDaysText.text = $"Food Days Remaining : {foodDays:F1}";
-        waterDaysText.text = $"Water Days Remaining : {waterDays:F1}";
+        foodDaysText.text = $"Food Days Remaining : {foodDays:F0}";
+        waterDaysText.text = $"Water Days Remaining : {waterDays:F0}";
 
         starvingText.gameObject.SetActive(starving);
     }
